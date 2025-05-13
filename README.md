@@ -53,6 +53,7 @@ Then, back in bash:
 
 ``` bash
 #build
+> cmsenv
 > cd $CMSSW_BASE/src
 > scram setup #tell it to re-read the xml files and learn about the local copy of boost. When rebuilding later you don't need to do this
 > scram b clean
